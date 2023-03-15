@@ -1,0 +1,135 @@
+{
+  "width": 600,
+  "height": 100,
+  "bg_color": "#0000FF",
+  "trans_color": "#0000FF",
+  "items": [
+    {
+      "type": "box",
+      "x": 55,
+      "y": 5,
+      "w": 90,
+      "h": 90,
+      "color": 0
+    },
+    {
+      "type": "box",
+      "x": 155,
+      "y": 5,
+      "w": 90,
+      "h": 90,
+      "r": 25,
+      "color": 1
+    },
+    {
+      "type": "box",
+      "x": 255,
+      "y": 5,
+      "w": 90,
+      "h": 90,
+      "r": 90,
+      "color": 2
+    },
+    {
+      "type": "plg",
+      "x": 355,
+      "y": 5,
+      "w": 45,
+      "h": 90,
+      "off": 10,
+      "color": 3
+    },
+    {
+      "type": "plg",
+      "x": 400,
+      "y": 5,
+      "w": 45,
+      "h": 90,
+      "off": 10,
+      "color": "#FFFF00"
+    },
+    {
+      "type": "plg",
+      "x": 455,
+      "y": 5,
+      "w": 90,
+      "h": 90,
+      "off": 10,
+      "vert": true,
+      "color": 4
+    },
+    {
+      "type": "txt",
+      "x": 100,
+      "y": 50,
+      "val": "Hi! This is a text\nitem. The next\nones will be\nnumbers, which\nbecome data\nstreamed from\nPulsus.",
+      "size": 6,
+      "color": "#FFFFFF"
+    },
+    {
+      "type": "txt",
+      "x": 200,
+      "y": 20,
+      "val": 0,
+      "ldval": "Loading Marvs",
+      "size": 9,
+      "color": "#FFFFFF"
+    },
+    {
+      "type": "txt",
+      "x": 200,
+      "y": 35,
+      "val": 1,
+      "ldval": "Loading Goods",
+      "size": 9,
+      "color": "#FFFFFF"
+    },
+    {
+      "type": "txt",
+      "x": 200,
+      "y": 50,
+      "val": 2,
+      "ldval": "you get it",
+      "size": 9,
+      "color": "#FFFFFF"
+    },
+    {
+      "type": "txt",
+      "x": 200,
+      "y": 65,
+      "val": 3,
+      "ldval": "rest w/ empty ldval:",
+      "size": 9,
+      "color": "#FFFFFF"
+    },
+    {
+      "type": "txt",
+      "x": 200,
+      "y": 80,
+      "val": 4,
+      "size": 9,
+      "color": "#FFFFFF"
+    },
+    {
+      "type": "txt",
+      "x": 300,
+      "y": 50,
+      "val": 7,
+      "prefix": "~~|",
+      "suffix": "*|~~",
+      "size": 14,
+      "color": 0
+    },
+    {
+      "type": "txt",
+      "x": 500,
+      "y": 50,
+      "val": 8,
+      "size": 6,
+      "color": "#000000",
+      "justify": "w",
+      "comment": "^ why is that w? because the canvas text draw takes a cardinal direction unlike other justify things. yeah i know its dumb. use n/e/w/s/ne/nw/se/sw, center is default"
+    }
+  ],
+  "comment": "Hopefully that's enough to get you started. Other IDs not shown here are in the code itself (which is fairly readable - ctrl+f \"API_GETS\" for the list), and let me know if you want anything else. Now, to make an actual good theme..."
+}

@@ -1,0 +1,9 @@
+body {
+	text-align: center;
+	width: 20rem;
+	overflow-wrap: break-word;
+}
+
+p {
+	border: 2px black solid;
+}

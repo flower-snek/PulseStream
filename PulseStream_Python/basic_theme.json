@@ -1,0 +1,138 @@
+{
+  "width": 800,
+  "height": 100,
+  "bg_color": "#0000FF",
+  "trans_color": "#0000FF",
+  "items": [
+    {
+      "type": "box",
+      "x": 5,
+      "y": 5,
+      "w": 790,
+      "h": 90,
+      "r": 25,
+      "color": "#222222"
+    },
+    {
+      "type": "plg",
+      "x": 30,
+      "y": 5,
+      "w": 90,
+      "h": 90,
+      "off": 20,
+      "color": 0
+    },
+    {
+      "type": "plg",
+      "x": 110,
+      "y": 5,
+      "w": 90,
+      "h": 90,
+      "off": 20,
+      "color": 1
+    },
+    {
+      "type": "plg",
+      "x": 190,
+      "y": 5,
+      "w": 90,
+      "h": 90,
+      "off": 20,
+      "color": 2
+    },
+    {
+      "type": "plg",
+      "x": 270,
+      "y": 5,
+      "w": 90,
+      "h": 90,
+      "off": 20,
+      "color": 3
+    },
+    {
+      "type": "plg",
+      "x": 350,
+      "y": 5,
+      "w": 90,
+      "h": 90,
+      "off": 20,
+      "color": 4
+    },
+    {
+      "type": "txt",
+      "x": 75,
+      "y": 50,
+      "val": 0,
+      "ldval": "mv",
+      "size": 15,
+      "color": "#000000"
+    },
+    {
+      "type": "txt",
+      "x": 155,
+      "y": 50,
+      "val": 1,
+      "ldval": "gr",
+      "size": 15,
+      "color": "#000000"
+    },
+    {
+      "type": "txt",
+      "x": 235,
+      "y": 50,
+      "val": 2,
+      "ldval": "go",
+      "size": 15,
+      "color": "#000000"
+    },
+    {
+      "type": "txt",
+      "x": 315,
+      "y": 50,
+      "val": 3,
+      "ldval": "ok",
+      "size": 15,
+      "color": "#000000"
+    },
+    {
+      "type": "txt",
+      "x": 395,
+      "y": 50,
+      "val": 4,
+      "ldval": "mi",
+      "size": 15,
+      "color": "#000000"
+    },
+    {
+      "type": "txt",
+      "x": 440,
+      "y": 25,
+      "val": 6,
+      "ldval": "song name",
+      "size": 15,
+      "color": "#FFFFFF",
+      "justify": "w"
+    },
+    {
+      "type": "txt",
+      "x": 435,
+      "y": 50,
+      "val": 7,
+      "ldval": "stars",
+      "suffix": "*",
+      "size": 15,
+      "color": "#FFFFFF",
+      "justify": "w"
+    },
+    {
+      "type": "txt",
+      "x": 430,
+      "y": 75,
+      "val": 8,
+      "ldval": "mods",
+      "size": 15,
+      "color": "#FFFFFF",
+      "justify": "w"
+    }
+  ]
+}
