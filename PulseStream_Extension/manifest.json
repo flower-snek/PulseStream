@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "PulseStream",
   "description": "Extension that creates a statistics page for Pulsus plays.",
-  "version": "0.01",
+  "version": "0.0.1",
   "action": {
     "default_popup": "PulseStream.html",
     "default_icon": "PulseStream.png"
@@ -17,7 +17,7 @@
   "web_accessible_resources": [
 	  {
 		"resources": [
-		  "inject.js"
+		  "ps_inject.js"
 		],
 		"matches": ["https://www.pulsus.cc/*"]
 	  }
