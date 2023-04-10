@@ -3,7 +3,7 @@ import websockets
 import json
 from tkinter import *
 
-f = open("basic_theme.json")
+f = open("basic_theme.json")  # pick your theme here (i should really make a config file)
 tj = json.load(f)
 f.close()
 
@@ -39,7 +39,7 @@ def parallelogram(x1, y1, x2, y2, off, vert=False, **kwargs):
 window.configure(background=tj["bg_color"])
 
 window.wm_attributes("-topmost", True)
-window.wm_attributes("-transparentcolor", tj["trans_color"])
+window.wm_attributes("-transparentcolor", tj["trans_color"])  # yooooo trans color
 stat_labels = []
 
 JUDGE_COLORS = ["#A844DB", "#44A7E4", "#44EE44", "#EEAF44", "#D04444"]
